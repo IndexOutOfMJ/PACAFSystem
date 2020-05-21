@@ -1,0 +1,40 @@
+#
+locale: "de"
+#
+noPermission: "§cDu hast keine Berechtigung!"
+#
+acceptButton: "§a[Akzeptieren]"
+denyButton: "§c[Ablehnen]"
+#
+sendFriendRequest: "§aDu hast {receiverName} eine Freundschaftsanfrage gesendet!"
+friendRequestAlreadySent: "§cDu hast bereits eine Freundschaftsanfrage an {receiverName} gesendet!"
+notAFriendOf: "§c{receiverName} is not your friend"
+#
+receivedFriendRequest: "§aDu hast eine Freundschaftsanfrage von {senderName} erhalten. {accept} {deny}"
+acceptFriendButtonHint: "§aKlicke hier um die Freundschaftsanfrage zu aktzeptieren!"
+denyFriendButtonHint: "§cKlicke hier um die Freundschaftsanfrage abzulehnen!"
+#
+acceptedFriend: "§aYou accepted the friend request of {senderName}"
+asFriendAccepted: "§a{receiverName} accepted your friend request"
+#
+deniedFriend: "§cYou denied the friend request of {senderName}"
+asFriendDenied: "§c{receiverName} denied your friend request"
+#
+noFriendRequestReceived: "§eYou have not received a friend request of this player!"
+#
+alreadyFriends: "§e{receiverName} is already your friend!"
+#
+friendRemoved: "§e{removedFriend} is no longer your friend"
+#
+asFriendRemoved: "§e{oldFriend} has removed you as a friend"
+#
+yourFriendIsNowOnline: "§e{onlineFriend} is now online!"
+#
+unknownPlayer: "§eUnbekannter Spieler"
+#
+errorMessage: "§eDu kannst dies nicht tun."
+#
+commandCanOnlyExecutedByPlayers: "§cDieser Befehl kann nur von Spielern ausgeführt werden."
+#
+friendIsNotOnline: "§cEs tut mir leid, aber ich kann deinen Freund nicht finden :("
+

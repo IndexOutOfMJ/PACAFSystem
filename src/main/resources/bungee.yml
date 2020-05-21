@@ -1,0 +1,7 @@
+name: PACAFSystem
+version: ${project.version}
+main: de.mj.pacafsystemspigot.bungeecord.PACAFSystemBungee
+prefix: PACAFSystem
+author: IndexOutOfMJ
+description: Spigot Party-, Friends- and Clansystem
+website: spigotmc.org

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PACAFSystem">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/PACAFSystem/PACAFSystem.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

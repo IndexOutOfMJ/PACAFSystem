@@ -1,0 +1,22 @@
+####################
+# General Settings #
+####################
+
+# The prefix displayed before each message
+prefix: "§8[§6PACAFSystem§8] §r"
+
+# Database
+# yml -> All data will be saved in a local file
+# mongoDB -> All data will be saved on a MongoDB Server
+# mySQL -> All data wil be saved on a MySQL Server (also works with MariaDB)
+storage-method: "yaml"
+
+database-name: "pacafSystem"
+
+# Define the address and the port for the database (host:port)
+# Default-ports: MySQL -> 3306; MongoDB: 27017
+address: '127.0.0.1'
+
+# You can leave this free if you won't use authentication
+username: ''
+password: ''

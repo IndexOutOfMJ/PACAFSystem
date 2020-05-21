@@ -1,0 +1,89 @@
+####################
+# General Settings #
+####################
+
+# The prefix displayed before each message
+prefix: "§8[§6PACAFSystem§8] §r"
+
+# Database
+# Yaml -> All data will be saved in a local file
+# MongoDB -> All data will be saved on a MongoDB Server
+# MySQL -> All data wil be saved on a MySQL Server (also works with MariaDB)
+storage-method: "yaml"
+
+# The name of the database (only used on mongodb and mysql)
+database-name: "pacafSystem"
+
+# MySQL -> Table prefix, MongoDB -> Collection prefix
+database-prefix-friends: "pacafFriends_"
+database-prefix-clans: "pacafClans_"
+
+# Define the address and the port for the database (host:port)
+# Default-ports: MySQL -> 3306; MongoDB: 27017
+address: '127.0.0.1'
+
+# You can leave this free if you won't use authentication
+username: ''
+password: ''
+
+###################
+# Friends Settings #
+###################
+
+# Toggle friends system
+enableFriends: true
+
+## Friends Command Settings
+# The name of the main command e.g. /friends or /mate
+friendsMainCommand: "friend"
+
+# The alias for the main command
+friendsCommandAlias:
+  - "mate"
+  - "f"
+
+## Other Settings
+# How many friends can a player have?
+# This value has no effect to the 'pacaf.friends.maxCount' permission.
+maxFriendsPerPlayer: 50
+
+#################
+# Clan Settings #
+#################
+
+# Toggle clan system
+enableClans: true
+
+## Clan Command Settings
+# The name of the main command e.g. /clan or /crew
+clanMainCommand: "clan"
+
+# The alias for the main command
+clanCommandAlias:
+  - "c"
+  - "crew"
+
+## Other Settings
+# How many players can join one clan?
+# This value has no effect to the 'pacaf.clans.maxCount' permission.
+maxPlayersPerClan: 50
+
+##################
+# Party Settings #
+##################
+
+# Toggle party system
+enableParty: true
+
+## Party Command Settings
+# The name of the main command e.g. /party
+partyMainCommand: "party"
+
+# The alias for the main command
+partyCommandAlias:
+  - "p"
+
+# How many players can join one party?
+# This value has no effect to the 'pacaf.party.maxCount' permission.
+maxPlayersPerParty: 10
+
